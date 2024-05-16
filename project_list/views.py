@@ -16,3 +16,6 @@ def javascript(request):
 
 def python(request):
     return render(request, 'base/python.html')
+
+def pong(request):
+    return render(request, 'js/pong.html')

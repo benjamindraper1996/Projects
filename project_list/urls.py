@@ -7,4 +7,5 @@ urlpatterns = [
     path("css/", views.css, name="css"),
     path("js/", views.javascript, name="javascript"),
     path("python/", views.python, name="python"),
+    path("pong/", views.pong, name="pong"),
 ]
